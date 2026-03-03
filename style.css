@@ -4,6 +4,9 @@
     box-sizing: border-box;
   
 }
+h1{
+    
+}
 body{
     background-color:#84B179;
     text-align: center;
@@ -13,7 +16,7 @@ body{
  display: flex;
     
     justify-content: center;
-    align-items: cen
+    align-items: center
 }
 
 .game{
@@ -34,4 +37,42 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-size: 8vmin;
     color:#122e02 ;
+    background: #ffffc7;
+
+}
+
+.reset{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background: #000;
+    color: white;
+    border: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background: #000;
+    color: white;
+    border: none;
+}
+
+#msg{
+    color: #ffffc7;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
 }
