@@ -1,0 +1,37 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color:#84B179;
+    text-align: center;
+}
+.container{
+ height: 70vh;
+ display: flex;
+    
+    justify-content: center;
+    align-items: cen
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 8vmin;
+    color:#122e02 ;
+}
